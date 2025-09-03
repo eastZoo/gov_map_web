@@ -1,7 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/theme";
-import { NavermapsProvider } from "react-naver-maps";
 import HomePage from "./pages/home/HomePage";
 
 const queryClient = new QueryClient({
@@ -17,9 +16,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <QueryClientProvider client={queryClient}>
-        <NavermapsProvider ncpClientId="qm9fz9el2q">
-          <HomePage />
-        </NavermapsProvider>
+        <HomePage />
       </QueryClientProvider>
     </ThemeProvider>
   );
