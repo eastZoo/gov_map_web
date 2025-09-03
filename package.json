@@ -1,0 +1,61 @@
+{
+  "name": "gov_map_web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@craco/craco": "^7.1.0",
+    "@hookform/resolvers": "^3.7.0",
+    "@tanstack/react-query": "^5.49.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.98",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "ag-grid-community": "^32.0.2",
+    "ag-grid-react": "^32.0.2",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.1",
+    "react-naver-maps": "^0.1.4",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.2",
+    "recoil": "^0.7.7",
+    "recoil-persist": "^5.1.0",
+    "styled-components": "^6.1.11",
+    "styled-normalize": "^8.1.1",
+    "typescript": "^4.9.5",
+    "uuid": "^11.0.3",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
